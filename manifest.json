@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Ad Softener",
+  "version": "1.0",
+  "description": "Softens YouTube ads by muting or skipping them automatically.",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon48.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": false
+  }
+}

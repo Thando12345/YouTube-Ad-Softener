@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    width: 300px; 
+    box-sizing: border-box; 
+}
+
+/* Title styling */
+h1 {
+    color: #ff3333; 
+    text-align: center;
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+/* Container for inputs and buttons */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Label styling */
+label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+/* Button styling */
+button {
+    background-color: #ff3333; 
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%; 
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #cc0000; 
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
+
+/* Footer link styling */
+.footer a {
+    color: #ff3333; 
+    text-decoration: none;
+}
+
+/* Footer link hover effect */
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Fade-out transition */
+body.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}

@@ -9,7 +9,7 @@
 - Simple front-end interface to enable or disable these features.
 
 ## Prerequisites:
--** Google Chrome (version 90 or higher)**
+- **Google Chrome (version 90 or higher)**
 - Permissions required: Access to YouTube and video elements.
 
 ## Installation:
